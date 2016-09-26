@@ -1,0 +1,38 @@
+{
+  "name": "angular-component-accessor",
+  "authors": [
+    "Emmanuel Telmon"
+  ],
+  "description": "This angular module provides helpers to build a page object to help test your directive.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "unit test"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "librairies",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "gulpfile.js",
+    "build",
+    "karma.conf.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": ">1.4.0",
+    "jquery": "latest",
+    "lodash": "~4.0.0"
+  },
+  "devDependencies": {
+    "angular-mocks": ">1.4.0"
+  },
+  "main": [
+    "dist/component-accessor.js"
+  ]
+}
